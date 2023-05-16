@@ -50,7 +50,6 @@ async function listKaryawan(argv, client){
 }
 
 async function createKaryawan(client, newKaryawan){
-    console.log(newKaryawan)
     const nama =  newKaryawan.nama
     const umur= newKaryawan.umur
     const ipk = newKaryawan.ipk
